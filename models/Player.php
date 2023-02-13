@@ -31,8 +31,8 @@ class Player
     public function createPlayer()
     {
         $host = 'localhost';
-        $user = 'admin';
-        $password = 'admin';
+        $user = 'root';
+        $password = '';
         $database = 'nba';
         $conn = mysqli_connect($host, $user, $password, $database);
 
