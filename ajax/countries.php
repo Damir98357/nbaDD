@@ -206,7 +206,7 @@ if (isset($_REQUEST['query'])) {
     if ($query != "") {
         $query = strtolower($query);
         $len = strlen($query);
-        foreach ($countries as $country) {   // going through every country looking for suggs
+        foreach ($countries as $country) {   // going through every country looking for suggesstion
             if (stristr($query, substr($country, 0, $len))) {
                 if ($suggestion === "") {
                     $suggestion = $country;
